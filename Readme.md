@@ -17,28 +17,31 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Ranted
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Ranted is an app to give everybody an outlet and license to rant what's on their mind and without the headache of traditional social media blowback.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-
+  
+  > Do you get negative feedback from your friends and family because of your ranting tirades? So, instead you took to social media and ranted their but 
+  > you hurt someone you knew or got alot of negative feedback or worse yet your rants caused trouble in your job or your relationship? That's why you need
+  >ranted, ranted is an app that allows you to rant and rave all you want without the negative blowback from your friends, family, or boss. Go ahead let off some steam try ranted!
 ## Problem ##
-  > Describe the problem your product solves.
+  
+  > Ranting can cause problems in relationships when it comes to family, friends, and your bosses... or when your in public and just need to let off some steam because some idiot just cut you off.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+>Ranted solves this problem by letting users rant unhindered with out the negative blowback that it can sometimes cause...Sometimes people need to get stuff off their chest but in a safe environment.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > Go ahead, let off some steam, you wont get fired and that big angry man in the car that just cut you off wont even know!
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > It's easy to use ranted, just go to ranted at (www.somefakename.com) on your, computer, tablet, or smartphone and start ranting!!!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > My husband gets tired of hearing me rant and when I ranted on social media my friends and followers would always tell me quit my 8!+c#!ng, now with ranted I can rant all I want and I like other peoples rants!!
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Your boss just came in and gave you an impossible deadline, your husband keeps leaving the toilet seat up, dont hold it in go to ranted on your internet connected device!
