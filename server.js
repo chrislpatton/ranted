@@ -20,6 +20,30 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
 
+// app.get('/messages', function(request,response){
+// 	console.log('server recieved a GET request for messages');
+// 	ranter1 = {
+// 		username: "theRanter",
+// 		rant: "I soooo hate traffic",
+// 		thumbs: 0
+// 	};
+
+// 	ranter2 = {
+// 		username: "hater",
+// 		rant: "I cant stand people that rant lol",
+// 		thumbs: 0
+// 	};
+
+// 	ranter3 = {
+// 		username: "whyRant",
+// 		rant: "Can't stand when my neighbors dog barks while I am asleep, I got to work in the morning",
+// 		thumbs: 0
+// 	};
+
+// 	var messages =[ranter1,ranter2,ranter3];
+// 	response.json(messages);
+// });
+
 // routes ==================================================
 //require('./app/routes')(app); // pass our application into our routes
 

@@ -1,23 +1,38 @@
 <!DOCTYPE>
 
-<html ng-app>
+<html ng-app="rantedApp">
 
   <head>  
+    <link rel="stylesheet"  href="./lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="./lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Ranted</title>
   </head>
   
   <body>
-  
-    <h1>Ranted</h1>
+    <div class='container' ng-controller='AppCtrl'>
+      <h1>Ranted</h1>
     
-    <div>
-      
-      <input ng-model="test" autofocus>
-       <p>{{test}}</p>
+      <div>
+        <form ng-submit="addPost()">
+          <input type="text" autofocus placeholder="What's your rant" ng-model="rantmsg"></input>
+          <button type="submit">Add Rant</button>
+        </form> 
+        <div>
+            <ul ng-repeat= "message in messages | orderBy:'-thumbs'">
+            <span ng-click="addVote">
+            <li>{{message.username}}</li>
+            <li>{{message.rant}}<span>
+            <i class="fa fa-thumbs-o-up fa-2x"></i>
+            {{message.thumbs}}</span></li>
+            </span>
+            </ul>
+        </div>
     
+      </div>
     </div>
-    
     <script src="./lib/angular/angular.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 
 </html>
