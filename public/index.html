@@ -9,27 +9,45 @@
     <title>Ranted</title>
   </head>
   
-  <body>
-    <div class='container' ng-controller='AppCtrl'>
-      <h1>Ranted</h1>
+  <body ng-controller='AppCtrl'>
+      
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <img class="pull-right" src="./images/logo.png" >
+        
+        <div class="page-header">
+          <h1>Ranted</h1>
+        </div>
     
-      <div>
-        <form ng-submit="addPost()">
-          <input type="text" autofocus placeholder="What's your rant" ng-model="rantmsg"></input>
-          <button type="submit">Add Rant</button>
+        <div>
+          <form class="form-group input" ng-submit="addPost()">
+            
+            <input class="form-control" type="text" autofocus placeholder="What's your rant" ng-model="rantmsg"></input>
+            <button class="btn btn-primary" type="submit">Add Rant</button>
+           
         </form> 
         <div>
             <ul ng-repeat= "message in messages | orderBy:'-thumbs'">
-            <span ng-click="addVote">
-            <li>{{message.username}}</li>
-            <li>{{message.rant}}<span>
-            <i class="fa fa-thumbs-o-up fa-2x"></i>
+            <li>@{{message.username}}</li>
+            <li class="msg">{{message.rant}}<span class="pull-right" ng-click="addVote(message)">
+            <i class="fa fa-thumbs-o-up fa-2x "></i>
             {{message.thumbs}}</span></li>
             </span>
+              <ul class="nav nav-pills">
+                <li>
+                  <input type="button" value="Comments" ng-click="ShowHide()" />
+                   <ul ng-show = "IsVisible">
+                   <li>{{message.comments}}</li>
+                    </ul>
+                </li>
             </ul>
+            
+              
+            </div>
         </div>
     
       </div>
+    </div>
     </div>
     <script src="./lib/angular/angular.min.js"></script>
     <script src="./js/app.js"></script>
